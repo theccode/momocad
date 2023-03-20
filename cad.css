@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+}
+.container {
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgrey; 
+    border-collapse: collapse;
+    text-align: center;
+}
+td {
+    border: solid 1px lightgrey;
+}
+
+
+.text-quantity {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    padding: 0.15em;
+}
+
+  
+.cad {
+    border: solid lightgray 1px;
+    border-spacing: 5px;
+}
+.cad td {
+    border: solid lightgray 1px;
+}
+
+textarea{
+    white-space: normal;
+    text-align: left;
+    /* text-align-last: center; */
+    font-size: 1.2em;
+}

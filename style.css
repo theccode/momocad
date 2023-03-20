@@ -1,0 +1,52 @@
+.root {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.momo-cad{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.momo-cad-list{
+    width: 100%;
+}
+
+.cad-amount {
+    color: #0d81fc;
+    margin-left: 10px;
+}
+.cad-id {
+    color: #ffd23e;
+}
+.momo-cad-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.momo-cad-list-item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cad-content{
+    width: 400px;
+    text-align: left;
+}

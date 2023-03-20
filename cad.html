@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cad.css">
+    <title>Back</title>
+</head>
+<body>
+    <div class="container">
+        <table class="cad" cell-padding="10">
+            <tr>
+                <td>Sender's ID</td>
+                <td>0208254575</td>
+            </tr>
+            <tr>
+                <td>Receiver's ID</td>
+                <td>XXXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>Receiver's Network</td>
+                <td>XXXXXXXXXX</td>
+            </tr>
+            <tr>
+                <td>MomoCAD ID</td>
+                <td id="cad-id">7C83DFTTF</td>
+            </tr>
+            <tr>
+                <td>Message <span class="num-of-messages">(1): edit</span></td>
+                <td>Wink</td>
+            </tr>
+            <tr>
+                <td colspan="2" ><textarea onkeyup="charCounter(this, 'counter', 160)" id="cad-text" contenteditable="true" cols="40" rows="8"></textarea> <span class="text-quantity"><input disabled  maxlength="3" size="3" value="160" id="counter"></span></td>
+            </tr>
+            <tr>
+                <td>CAD amount</td>
+                <td id="cad-amount">GHC 10.00</td>
+            </tr>
+            <tr>
+                <td>Total amount</td>
+                <td id="total-amount">GHC 10.00</td>
+            </tr>
+        </table>
+    </div>
+    <script src="cad.js"></script>
+</body>
+</html>
